@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+	<title>
+		
+		Program-02 Gage Morris
+		
+	</title>
+	
+	<head>
+		
+		<script type="text/javascript" src="scripts/program-02.js"></script>
+		<link href="css/program-02.css" rel="stylesheet" type="text/css" />
+		
+	</head>
+<body>
+
+<h1>Requirement #1</h1>
+
+<input type="text" id="numberOne" >
+<input type="text" id="numberTwo" >
+<button onclick="concatenate()">Concatenate</button>
+<p id="dummie">Here is where it will show up</p>
+
+<hr>
+
+<h1>Requirement #2</h1>
+
+<textarea rows="1" cols="10" id="textarea"></textarea>
+<input type="text" id="textbox" >
+<button onclick="string()">Are they the same?</button>
+
+<hr>
+
+<h1>Requirement #3</h1>
+
+<input type="text" id="01" >Box 1<br>
+<input type="text" id="02" >Box 2<br>
+<input type="text" id="03" >Box 3<br>
+<button onclick="slice()">Slice</button><br>
+<button onclick="substring()">Substring</button><br>
+<button onclick="substr()">Substr</button><br>
+<p id="slice">Slice</p>
+<p id="substring">Substring</p>
+<p id="substr">Substr</p>
+
+<hr>
+
+<h1>Requirement #4</h1>
+
+<input type="text" id="original" >Box 1<br>
+<input type="text" id="replace" >Box 1<br>
+<input type="text" id="new" >Box 1<br>
+<button onclick="myFunction()">Try it</button>
+<p id="result">Here it will go</p>
+
+<hr>
+
+<h1>Requirement #5</h1>
+
+<input type="text" id="flowers" >Flower types<br>
+<button onclick="flowers()">Try it</button>
+<p id="array"></p>
+
+<hr>
+
+<h1>Requirement #6</h1>
+
+<input type="text" id="04">First Number<br>
+<input type="text" id="05" placeholder="put a 0 here the first time">Second number<br>
+<button onclick="division()">Submit</button>
+<p id="division"></p>
+<p id="advice"></p>
+
+<hr>
+
+<h1>Requirement #7</h1>
+
+<p>Press the button to see the max and min values javascript can process</p>
+<button onclick="maxandMin()" id="decoration">Submit</button>
+<p id="max"></p>Is the largest, most bigheaded and overinflated value that javascript processes.
+<p id="min"></p>Is the smallest, most insignificant and unimpressive value that javascript processes
+
+<hr>
+
+<h1>Requirement #8</h1>
+
+<body onload="numbers(); randomize();">
+<p>The number method converts variables to numbers.</p>
+<p id="numberMethod"></p> Is the result of setting the variable blahblahblah to true
+<p>The parseInt method converts a string to a whole number and only the first number is returned.</p>
+<p id="parseInt"></p> Is the result of 11.33
+<p>The parseFloat method returns the exact number that was input and still only the first number is returned.</p>
+<p id="parseFloat"></p> Is the result of 11.33
+
+<hr>
+
+<h1>Requirement #9</h1>
+
+<p>Random number between 1 and 7</p>
+<p id="random"></p>
+
+<hr>
+
+<h1>Requirement #10</h1>
+
+<input type="text" id="one">First Number<br>
+<input type="text" id="two">Second number<br>
+<button onclick="exponents()">Calculate</button>
+<p id="exponents"></p>
+
+<hr>
+
+<h1>Requirement #11</h1>
+
+<button onclick="dates();">Click for time</button>
+	<p id="date01"></p>
+	<p id="date02"></p>
+	<p id="date03"></p>
+	<p id="date04"></p>
+
+<hr>
+
+<h1>Requirement #12</h1>
+
+<button onclick="setDate();">Click for setDate methods</button>
+	<p id="setDate"></p>
+	<p id="getDate"></p>
+	<p id="setMonth"></p>
+	<p id="getMonth"></p>
+	<p id="setFullYear"></p>
+	<p id="getFullYear"></p>
+
+<hr>
+
+<h1>Requirement #13</h1>
+
+<input type="text" id="trees01" >Tree type 1<br>
+<input type="text" id="trees02" >Tree type 2<br>
+<input type="text" id="trees03" >Tree type 3<br>
+<input type="text" id="trees04" >Tree type 4<br>
+<input type="text" id="trees05" >Tree type 5<br>
+<input type="text" id="trees06" >Tree type 6<br>
+<input type="text" id="trees07" >Tree type 7<br>
+<button onclick="trees();">Display original string</button>
+<p id="treeTypes"></p>
+
+
+<hr>
+
+<h1>Requirement #14</h1>
+
+<button onclick="trees02()">Take last two items off the end</button>
+<p id="takeTwo"></p>
+<p id="hidden"></p>
+
+<hr>
+
+<h1>Requirement #15</h1>
+
+<button onclick="trees03()">Take the first item off</button>
+<p id="takeThree"></p>
+<p id="hidden02"></p>
+
+<hr>
+
+<h1>Requirement #16</h1>
+
+<button onclick="trees04()">Insert item in third position</button>
+<p id="takeFour"></p>
+<p id="hidden02"></p>
+<hr>
+
+<h1>Requirement #17</h1>
+
+<button onclick="trees05()">Take the first item off</button>
+<p id="takeFive"></p>
+<p id="takeSix"></p>
+<p id="hidden02"></p>
+
+<hr>
+
+<h1>Requirement #18</h1>
+
+<input type="text" id="here" >Number 1<br>
+<input type="text" id="there" >Number 2<br>
+<button onclick="which()">Submit</button><p>Are they equal or not?</p>
+
+<hr>
+
+<h1>Requirement #19</h1>
+
+<input type="text" id="everywhere" >Number<br>
+<button onclick="logicalOperator()">Submit</button><p>Click to see</p>
+
+<hr>
+
+<h1>Requirement #20</h1>
+
+<input type="text" id="names">Enter a name<br>
+<button onclick="names()">Submit</button>Which of the possibilities is it?
+
+<hr>
+
+<h1>Requirement #21</h1>
+
+<input type="text" id="switching">Enter a name<br>
+<button onclick="switching()">Submit</button>Now with a swtich statement.
+
+<hr>
+
+<h1>Requirement #22</h1>
+
+<p>Bird, Seagull, Cheetah, Gazelle, Lizard, Scorpion</p>
+<input type="text" id="animals">Enter one of the animals above<br>
+<button onclick="animals()">Submit</button>Animals!
+
+<hr>
+
+<h1>Requirement #23</h1>
+
+<button onclick="forIn()">Submit</button>For In Loop
+<p id="forIn"></p>
+<button onclick="whileLoop()">Submit</button>While Loop
+<p id="whileLoop"></p>
+<button onclick="doWhile()">Submit</button>Do While loop
+<p id="doWhile"></p>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+	background-color:#6699FF;
+	text-align:center;
+}
+
+#decoration{
+	background-color:#FF0000;
+}
+
+#center{
+	text-align:left;
+	display: inline-block;
+}
+
+
+
+<h1>Requirement #1</h1>
+    <h1><?php echo "Welcome to PHPs!"; ?></h1>
+    <h2><?php $name="Gage Morris"; echo $name; ?></h2>
+    <h3><?php echo pi()*(33**2); ?></h3>
+
+<hr>

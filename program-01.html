@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		
+		<title>Program 01 Gage Morris</title>
+		
+		<link href="css/program-01.css" rel="stylesheet" type="text/css" />
+    	
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    	
+    	<script type="text/javascript" src="scripts/program-01.js"></script>
+    	
+	</head>
+
+<body>
+
+<body onload ="eraseEverything()">	
+	
+<div id="top">	
+	
+<h1>Requirement#1</h1>
+<img id="myImage" onclick="changeImage()" src="images/lightbulbOff.png"></br>
+
+<h1>Requirement#2</h1>
+<img id="otherImage" src="images/lightbulbOff.png"></br>
+
+<button onclick="changeSize()">Change the image size</button></br>
+
+<h1>Requirement#3</h1>
+
+<input id="randomNumberCheck" type="text" >
+
+<button onclick="numberCheck()">Check your number</button></br></br>
+
+<h1>Requirement#4</h1>
+<button onclick="eraseEverything() ; changeBackground() ">Erase Everything</button>
+
+</div>
+
+<div id="bottom">
+	
+	<div id = "first">
+	<h1>Requirement#5</h1>
+	<p>
+		Call me Ishmael. Some years ago - never mind how long precisely - having little or no money in my purse, and nothing particular to interest me on shore, 
+		I thought I would sail about a little and see the watery part of the world.
+	</p> 
+	</div>
+	
+	<button onclick="colorful()">Change the text</button></br>
+
+<h1>Requirement#6</h1>
+<p>Operations</p>
+
+<input type="text" id="firstNumber"></br>
+<input type="text" id="secondNumber"></br>
+<input type="radio" id="add">Add
+<input type="radio" id="subtract">Subtract
+<input type="radio" id="multiply">Multiply
+<input type="radio" id="divide">Divide
+<button onclick="operations()">Calculate</button></br>
+	
+<h1>Requirement#7</h1>
+
+<p>Numbers, when treated like a string, can use almost the same code as #6 for this program.As you will see, it concatenates them. A mistake I made in #6 as well.</p>
+<input type="text" id="numberOne"></br>
+<input type="text" id="numberTwo"></br>
+<button onclick="add()">Add the Numbers</button> As two strings</br></br>
+
+<h1>Requirement#8</h1>
+
+<input type="text" id="moduloOne"></br>
+
+<button onclick="modulonimbus()">Is it even or odd?</button></br></br>
+
+
+<h1>Requirement#9</h1>
+<input type="text" id="box" value="5">
+<input type="checkbox" id="01">Subtract<br>
+<input type="checkbox" id="02">Add<br>
+<button onclick="increments()">Increments</button></br></br>
+
+<h1>Requirement #10</h1>
+
+<div id="selections">
+<select name="type" id="type" onchange="call(this.value);">
+  <option>Led</option>
+  <option selected="selected">Zeppelin</option>
+  <option>The</option>
+  <option>Beatles</option>
+</select>
+<h1><div id="message"></div></h1>
+</div>
+
+
+<h1>Requirement #11</h1>
+<div id="changes">
+	
+<p>This is the div that's supposed to change colors</p>
+
+</div>
+
+
+</div>
+
+</body>
+
+</html>
